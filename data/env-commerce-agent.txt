@@ -1,0 +1,7 @@
+PUBLIC__app__commerceAgent__enabled=true
+PUBLIC__app__commerceAgent__embeddedServiceName=ExampleShopperAgent
+PUBLIC__app__commerceAgent__embeddedServiceEndpoint=https://….my.site.com/ESWExampleShopperAgent
+PUBLIC__app__commerceAgent__scriptSourceUrl=https://…./assets/js/bootstrap.min.js
+PUBLIC__app__commerceAgent__scrt2Url=https://….my.salesforce-scrt.com
+PUBLIC__app__commerceAgent__salesforceOrgId={YourSalesforceOrgId}
+PUBLIC__app__commerceAgent__siteId=MarketStreet
