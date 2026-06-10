@@ -25,12 +25,36 @@
         <name>AuraDefinitionBundle</name>
     </types>
     <types>
+    <members>*</members>
+        <name>CspTrustedSite</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>CorsWhitelistOrigin</name>
+    </types>
+    <types>
         <members>*</members>
         <name>LightningComponentBundle</name>
     </types>
     <types>
         <members>*</members>
+        <name>ExternalCredential</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>NamedCredential</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>PermissionSet</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>QueueRoutingConfig</name>
+    </types>
+    <types>
+        <members>*</members>
         <name>StaticResource</name>
     </types>
-    <version>50.0</version>
+    <version>65.0</version>
 </Package>
