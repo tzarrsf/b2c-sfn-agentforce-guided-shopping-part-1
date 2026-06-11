@@ -1,0 +1,1 @@
+Always use the hardcoded value '{MRT_deploymentUrl}' for the domainURL parameter.
