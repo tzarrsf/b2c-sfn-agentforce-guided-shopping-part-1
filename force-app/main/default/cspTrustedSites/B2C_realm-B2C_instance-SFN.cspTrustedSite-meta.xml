@@ -3,7 +3,7 @@
     <canAccessCamera>false</canAccessCamera>
     <canAccessMicrophone>false</canAccessMicrophone>
     <context>All</context>
-    <endpointUrl>https://zzpe-110-sbx-bb49880-development.sfdc-8tgtt5-ecom1.exp-delivery.com</endpointUrl>
+    <endpointUrl>https://*.dx.commercecloud.salesforce.com</endpointUrl>
     <isActive>true</isActive>
     <isApplicableToConnectSrc>true</isApplicableToConnectSrc>
     <isApplicableToFontSrc>true</isApplicableToFontSrc>
