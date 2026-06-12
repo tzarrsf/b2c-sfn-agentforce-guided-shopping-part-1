@@ -1,0 +1,1 @@
+SELECT Id, Name FROM Group WHERE Type = 'Queue' AND Name = 'Backup Messaging Queue'
