@@ -1,1 +1,3 @@
+#!/usr/bin/env pwsh
+
 sf project deploy start --metadata "PermissionSet:B2C_Guided_Shopping_Agent_Permissions"

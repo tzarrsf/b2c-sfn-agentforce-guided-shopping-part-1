@@ -4,9 +4,9 @@ $ProjectRoot = Resolve-Path "$PSScriptRoot\..\.."
 Push-Location $ProjectRoot
 try
 {
-    sf data query --file 'scripts/soql/get-queue-ids.soql' --json
+    sf apex run --file 'scripts/apex/verify-permission-set-assigned-to-agent.apex'
 }
-finally # restore for interactive session
+finally
 {
     Pop-Location
 }

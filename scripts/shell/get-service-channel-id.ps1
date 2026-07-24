@@ -1,1 +1,12 @@
-sf data query --query "SELECT Id, DeveloperName, MasterLabel FROM ServiceChannel WHERE DeveloperName = 'sfdc_livemessage'" --target-org {ORG_username} --json
+#!/usr/bin/env pwsh
+
+$ProjectRoot = Resolve-Path "$PSScriptRoot\..\.."
+Push-Location $ProjectRoot
+try
+{
+    sf data query --file 'scripts/soql/get-service-channel-id.soql' --json
+}
+finally # restore for interactive session
+{
+    Pop-Location
+}
