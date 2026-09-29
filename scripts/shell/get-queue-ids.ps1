@@ -1,1 +1,1 @@
-sf data query --query "SELECT Id, Name FROM Group WHERE Type = 'Queue' AND Name = 'Backup Messaging Queue'" --target-org {ORG_username} --json
+sf data query --query "SELECT Id, Name FROM Group WHERE Type = 'Queue' AND Name = 'Backup Messaging Queue'" --json

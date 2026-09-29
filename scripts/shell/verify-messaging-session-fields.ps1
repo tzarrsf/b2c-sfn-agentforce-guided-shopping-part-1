@@ -1,1 +1,1 @@
-sf data query --query "SELECT QualifiedApiName, Label FROM FieldDefinition WHERE EntityDefinition.QualifiedApiName = 'MessagingSession' AND QualifiedApiName LIKE '%__c'" --target-org {ORG_username} --json
+sf data query --query "SELECT QualifiedApiName, Label FROM FieldDefinition WHERE EntityDefinition.QualifiedApiName = 'MessagingSession' AND QualifiedApiName LIKE '%__c'" --json

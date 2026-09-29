@@ -1,1 +1,1 @@
-sf data query --query "SELECT Id, DeveloperName, MasterLabel FROM ServiceChannel WHERE DeveloperName = 'sfdc_livemessage'" --target-org {ORG_username} --json
+sf data query --query "SELECT Id, DeveloperName, MasterLabel FROM ServiceChannel WHERE DeveloperName = 'sfdc_livemessage'" --json

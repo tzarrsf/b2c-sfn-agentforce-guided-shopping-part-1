@@ -1,1 +1,1 @@
-sf data query --query "SELECT Id, DeveloperName, MasterLabel FROM BotDefinition WHERE MasterLabel = 'Guided Shopping for B2C Storefronts'" --target-org {ORG_username} --json
+sf data query --query "SELECT Id, DeveloperName, MasterLabel FROM BotDefinition WHERE MasterLabel = 'Guided Shopping for B2C Storefronts'" --json
